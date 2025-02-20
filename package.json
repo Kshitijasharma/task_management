@@ -1,0 +1,24 @@
+{
+  "name": "task_management",
+  "version": "1.0.0",
+  "description": "AI-powered task management",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node --loader ts-node/esm index.ts",
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ai-sdk/togetherai": "^0.1.12",
+    "dotenv": "^16.4.7",
+    "langchain": "^0.3.19"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "@types/dotenv": "^8.2.0"
+  }
+}
